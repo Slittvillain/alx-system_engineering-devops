@@ -1,2 +1,2 @@
 #!/bin/bash
-A=${PATH//[^:]} echo $((${#A}+1))
+find $path -maxdepth 1 -type d -print | wc -l
