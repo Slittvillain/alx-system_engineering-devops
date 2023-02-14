@@ -1,4 +1,2 @@
 #!/bin/bash
-greeting=Hello 
-name=id 
-echo $greeting $name
+echo "hello $USER"
